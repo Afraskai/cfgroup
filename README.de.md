@@ -257,6 +257,14 @@ stateDiagram-v2
 - **Keine Geräte gefunden:** Der Account muss mindestens eine registrierte Wärmepumpe enthalten.
 - **Logs:** `Einstellungen → System → Protokolle` öffnen und nach `cfgroup_heatpump` filtern.
 
+## Beiträge
+
+Fehlerberichte und Fragen sind herzlich willkommen — bitte einfach ein **Issue** öffnen.
+
+**Dieses Repository wird nach bestem Wissen für ein einzelnes getestetes Gerät gepflegt** (`CF Pool Wärmepumpe SMART PLUS 3 kW`). Da das Linked-Go-Cloud-Protokoll je nach Modell abweicht, können Pull Requests für andere Hardware hier nicht geprüft oder gemergt werden — ich kann sie nicht testen, und ungeprüfte Schreibbefehle können ein Gerät ernsthaft beschädigen.
+
+Wer ein anderes Modell hat und die Integration erweitern möchte, ist herzlich eingeladen, einen **Fork** zu erstellen. Forks sind ausdrücklich willkommen — wer möchte, kann seinen Fork gern in einem Issue verlinken, damit andere Nutzer ihn finden.
+
 ## Lizenz und Haftungsausschluss
 
 Dieses Projekt steht unter der **MIT-Lizenz**. Den vollständigen Text findest Du in [`LICENSE`](LICENSE).

@@ -257,6 +257,14 @@ stateDiagram-v2
 - **No device found:** The account must have at least one registered heat pump.
 - **Logs:** Open `Settings → System → Logs` and filter for `cfgroup_heatpump`.
 
+## Contributing
+
+Bug reports and questions are welcome — please open an **Issue**.
+
+**This repository is maintained on a best-effort basis for a single tested device** (`CF Pool Heat Pump SMART PLUS 3 kW`). Because the Linked-Go cloud protocol varies between models, pull requests that add support for other hardware cannot be reviewed or merged here — I have no way to test them and shipping unverified write commands carries a real risk of damaging a device.
+
+If you own a different model and want to extend this integration, please **create a fork**. Forks are very welcome and you are free to link to yours in an issue so other users can find it.
+
 ## License and warranty
 
 This project is licensed under the **MIT License**. See [`LICENSE`](LICENSE) for the full text.
